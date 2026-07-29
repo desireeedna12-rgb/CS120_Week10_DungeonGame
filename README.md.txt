@@ -113,3 +113,5 @@ Asset information and sources are documented in the **Asset Manifest** located i
 - [x] The root README appears when the repository opens.
 - [x] All required files are committed and pushed.
 - [x] No passwords, keys, or private personal data are included.
+
+_Last updated: July 2026_
