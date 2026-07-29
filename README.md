@@ -66,20 +66,16 @@ Lilo & Stitch: Island Adventure is a tropical-themed 2D game developed using Vis
 
 # Where to find the assignment documents
 
-The assignment documentation for this project is located in the **docs** folder.
+All required assignment materials are organized into the following folders within this repository:
 
-This folder contains:
-
-- Development Document
-- Asset Manifest
-- Reference Study Notes
-
-Assignment screenshots and other required submission evidence are located in the **evidence** folder.
-
-Game artwork, backgrounds, icons, collectibles, and other media assets are stored in the **assets** folder.
-
-The Visual Basic WPF project and source code are located in the **src** folder.
-
+docs/ – Contains all project documentation, including:
+Development Document
+Asset Manifest
+Reference Study Notes
+Test and Readiness Log
+evidence/ – Contains screenshots and other required evidence used to verify project setup, testing, and assignment completion.
+assets/ – Stores all game resources, including artwork, backgrounds, character images, icons, and other media used in the project.
+src/ – Contains the Visual Basic WPF project, source code, and all application files required to build and run the game.
 ---
 
 # Git checkpoints
