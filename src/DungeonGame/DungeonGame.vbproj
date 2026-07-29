@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <None Remove="Assets\Angel player.png" />
-    <None Remove="Assets\Beach background 2.png" />
+    <None Remove="Assets\Choose character.png" />
     <None Remove="Assets\Stitch Player.png" />
   </ItemGroup>
 
@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <Resource Include="Assets\Angel player.png" />
-    <Resource Include="Assets\Beach background 2.png" />
+    <Resource Include="Assets\Choose character.png" />
     <Resource Include="Assets\Stitch Player.png" />
   </ItemGroup>
 
