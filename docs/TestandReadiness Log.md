@@ -1,72 +1,34 @@
-\# Test and Readiness Log
+# Test and Readiness Log
 
+## Test environment
 
+- Project version or commit: Initial project setup and character selection screen
+- Computer or device: Windows PC
+- Operating system: Windows 11
+- Date: July 28, 2026
 
-\## Test environment
-
-
-
-\- \*\*Project version or commit:\*\* Initial project setup
-
-\- \*\*Computer or device:\*\* Windows PC
-
-\- \*\*Operating system:\*\* Windows 11
-
-\- \*\*Date:\*\* July 28, 2026
-
-
-
-\## Preparation checks
-
-
+## Preparation checks
 
 | Check ID | Action | Expected result | Actual result | Pass or fail | Fix or next action | Evidence file |
-
 |---|---|---|---|---|---|---|
+| P01 | Open the project | Project opens in Visual Studio 2022 without errors. | The project opened successfully in Visual Studio 2022. | Pass | None | `evidence/Run the empty environment.png` |
+| P02 | Run the current build | The application launches successfully. | The application builds and displays the character selection screen. | Pass | Continue implementing gameplay features. | `evidence/02-gameplay-background.png` |
+| P03 | Review repository structure | Required folders and files are present. | The repository contains `src`, `assets`, `docs`, `evidence`, `.gitignore`, `.gitattributes`, and `README.md`. | Pass | Continue organizing project files as development progresses. | *(Repository screenshot recommended)* |
+| P04 | Verify GitHub repository | Repository and README are visible while signed out. | Repository is public and the README displays correctly on the main page. | Pass | None | *(GitHub repository screenshot recommended)* |
 
-| P01 | Open the project | Correct editor opens the project | Project opened successfully in Visual Studio 2022. | Pass | None | `evidence/OpenProject.png` |
-
-| P02 | Run the empty or current build | Expected window or output appears | Project builds successfully and opens the application window. | Pass | Continue adding gameplay features. | `evidence/RunProject.png` |
-
-| P03 | Review required folders | Files are in the planned locations | Repository contains `src`, `assets`, `docs`, `evidence`, `.gitignore`, and `README.md`. | Pass | Continue adding project files as development progresses. | `evidence/RepositoryStructure.png` |
-
-| P04 | Open the submitted link while signed out | Repository and README are visible | Repository opens successfully and README is displayed on the main page. | Pass | None | `evidence/GitHubRepository.png` |
-
-
-
-\## Build test cases
-
-
-
-Add feature tests here when development begins.
-
-
+## Build test cases
 
 | Test ID | Action | Expected result | Actual result | Pass or fail | Fix or next action | Evidence file |
-
 |---|---|---|---|---|---|---|
+| T01 | Launch the application | Character selection screen displays correctly with the background, Stitch, Angel, and Play button. | Character selection screen launches successfully and user can select a character. | Pass | Continue implementing gameplay mechanics. | `evidence/02-gameplay-background.png` |
 
-| T01 | Launch the application | Main game window opens successfully. | Application launches correctly. | Pass | Continue implementing gameplay mechanics. | `evidence/RunProject.png` |
+## Known issues
 
+The project is currently in the early stages of development. The character selection screen has been completed, while gameplay features such as player movement, collision detection, collectibles, scoring, sound effects, and win/lose conditions will be implemented in future development milestones.
 
+## Final check
 
-\## Known issues
-
-
-
-The game is currently under development. Core gameplay features such as player movement, collision detection, scoring, collectibles, and sound effects are still being implemented. These features will be tested again after development is complete.
-
-
-
-\## Final check
-
-
-
-\- \[x] Required preparation checks were completed.
-
-\- \[x] Failed checks were repeated after the fix.
-
-\- \[x] Evidence filenames match the README map.
-
-\- \[x] The project was tested from a fresh start.
-
+- [x] Required preparation checks were completed.
+- [x] Failed checks were repeated after the fix.
+- [x] Evidence filenames match the README map.
+- [x] The project was tested from a fresh start.
