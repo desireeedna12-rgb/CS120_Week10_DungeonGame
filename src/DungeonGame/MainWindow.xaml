@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Lilo &amp; Stitch: Island Adventure" Height="450" Width="800">
     <Grid>
-
+        <Image Source="Assets/Beach background 2.png"
+       Stretch="Fill" />
     </Grid>
 </Window>
