@@ -34,7 +34,7 @@ Technology or language: Visual Basic .NET (WPF)
 
 
 
-Lilo \& Stitch: Island Adventure is a retro arcade-style catching game where the player controls Stitch to collect seashells and experiment capsules while avoiding enemies.
+Lilo \& Stitch: Island Adventure is a retro arcade-style catching game where the player controls Stitch or Angel to collect seashells and experiment capsules while avoiding enemies.
 
 
 
@@ -44,7 +44,7 @@ Lilo \& Stitch: Island Adventure is a retro arcade-style catching game where the
 
 
 
-Stitch is helping clean the beaches after experiment capsules and seashells have been scattered across the island. The player must collect as many as possible while avoiding dangerous enemies.
+After a powerful storm scattered experiment capsules and seashells across the island, Stitch and Angel work together to restore the beaches. The player chooses one character and collects as many items as possible while avoiding dangerous enemies.
 
 
 
@@ -52,7 +52,7 @@ Stitch is helping clean the beaches after experiment capsules and seashells have
 
 
 
-Reach the target score before losing all three waves.
+Choose a character, collect enough seashells and experiment capsules to reach the target score, and avoid enemies before losing all three waves.
 
 
 
@@ -60,14 +60,14 @@ Reach the target score before losing all three waves.
 
 
 
-The player controls a character exploring a tropical island. The player should be able to move around the map, collect important items, avoid hazards, complete objectives, and finish each level.
+The player chooses either Stitch or Angel before the game begins. The selected character explores the island, collects important items, avoids hazards, and completes the level.
 
 
 
 \### Controls
 
 
-
+\- Mouse Click = Select Stitch or Angel
 \- Left Arrow = Move Left
 
 \- Right Arrow = Move Right
@@ -144,8 +144,7 @@ A peaceful tropical island has become scattered with supplies after a powerful s
 
 
 
-The first working version of the game will include a title screen, one playable map, player movement, collectible items, simple obstacles, and a victory screen after all required items have been collected.
-
+The first working version of the game includes a character selection screen, one playable map, player movement, collectible items, simple obstacles, and a victory screen after all required items have been collected.
 
 
 \--------------------------------------------------
@@ -176,6 +175,8 @@ The first working version of the game will include a title screen, one playable 
 
 |System or Screen|Input|Action|Output|
 |-|-|-|-|
+
+| Character Selection | Mouse Click | Player chooses Stitch or Angel | Selected character is saved and Play becomes available |
 |Title Screen|Start button|Starts the game|Game screen appears|
 |Player Movement|Left and right arrow keys|Moves Stitch horizontally|Stitch moves across the bottom|
 |Falling Items|Game timer|Moves items downward|Capsules, seashells, and enemies fall|
@@ -193,6 +194,7 @@ The first working version of the game will include a title screen, one playable 
 
 |Variable, Property, List, Table|Data Type|Purpose|Example Value|
 |-|-|-|-|
+| SelectedCharacter | String    | Stores the player's selected character | Stitch  |
 |PlayerScore|Integer|Stores the current score|150|
 |PlayersHearts|Integer|Stores remaining waves|3|
 |TargetScore|Integer|Stores score needed to win|500|
@@ -209,6 +211,7 @@ The first working version of the game will include a title screen, one playable 
 
 |Funntion, Procedure, Method, or Event|Purpose|Input|Result|
 |-|-|-|-|
+| SelectCharacter | Saves the chosen character | Mouse Click | Stitch or Angel becomes the active player |
 |StartGame|Starts a new game|Start button|Game begins|
 |MovePlayer|Moves Stitch left or right|Arrow keys|Player postion changes|
 |SpawnItem|Creates a falling item|Game timer|New item appears|
@@ -280,16 +283,13 @@ Planned assets:
 
 
 
-\- Player sprite
-
-\- Tropical island background
-
-\- Palm tree
-
+\- Stitch player sprite
+\- Angel player sprite
+\- Character selection background
+\- Gameplay background
 \- Seashell collectible
-
-\- Title screen background
-
+\- Wave icon
+\- Title screen artwork
 
 
 \--------------------------------------------------
