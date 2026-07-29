@@ -39,13 +39,15 @@ Lilo & Stitch: Island Adventure is a tropical-themed 2D game developed using Vis
 
 # Graded requirements map
 
-| Requirement | Location in this repository | Evidence |
-|---|---|---|
-| Development Document | `docs/` | `evidence/` |
-| Asset Manifest | `docs/` | `evidence/` |
-| Reference Study Notes | `docs/` | `evidence/` |
-| Source Code | `src/` | Project runs in Visual Studio |
-| Game Assets | `assets/` | Game artwork included |
+| Requirement            | Location in this repository    | Evidence                                                                                |
+| ---------------------- | ------------------------------ | --------------------------------------------------------------------------------------- |
+| Development Document   | `docs/Development Document.md` | `evidence/Development-Document.png` *(or a screenshot of the document if you take one)* |
+| Asset Manifest         | `docs/# Asset Manifest.md`     | `evidence/Asset-Manifest.png` *(take a screenshot of the completed document)*           |
+| Reference Study Notes  | `docs/ReferenceStudyNotes.md`  | `evidence/Reference-Study-Notes.png` *(take a screenshot of the completed document)*    |
+| Test and Readiness Log | `docs/TestandReadiness Log.md` | `evidence/Test-Readiness-Log.png` *(take a screenshot of the completed log)*            |
+| Source Code            | `src/DungeonGame/`             | `evidence/Run the empty environment.png`                                                |
+| Game Assets            | `assets/`                      | `evidence/02-gameplay-background.png`                                                   
+
 
 ---
 
