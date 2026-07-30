@@ -1,98 +1,53 @@
-\# Development Document md style
+# Development Document
 
+## Project
 
-
-\## Project
-
-
-
-Project name: Lilo \& Stitch: Island Adventure
-
-
+Project name: Stitch & Angel: Island Stack
 
 Course and assignment: CS120 Application Development – Week 10 Game Development
 
-
-
 Developer or team: Desiree Kamerer Fuentes (Individual Project)
-
-
 
 Date started: July 28, 2026
 
-
-
 Technology or language: Visual Basic .NET (WPF)
 
+--------------------------------------------------
 
+## Brief
 
-\--------------------------------------------------
+Stitch & Angel: Island Stack is a retro-inspired puzzle game where players choose to play as Stitch or Angel and arrange falling tropical-themed puzzle pieces to clear rows, earn points, and survive as long as possible.
 
+### Story
 
+After one of Jumba's experiments scattered colorful island supplies across Hawaii, Stitch and Angel work together to organize everything before the island becomes overwhelmed. Players clear rows of tropical items, earn Friendship Energy, and activate special powers to keep the board from filling up.
 
-\## Brief
+### Goal
 
+Choose Stitch or Angel, clear rows of tropical puzzle pieces, earn points, activate power-ups, and survive as the game becomes faster.
 
+### User or Player
 
-Lilo \& Stitch: Island Adventure is a retro arcade-style catching game where the player controls Stitch or Angel to collect seashells and experiment capsules while avoiding enemies.
+The player chooses either Stitch or Angel before the game begins. The selected character remains on screen throughout the game while the player controls falling puzzle pieces and earns the highest score possible.
 
+### Controls
 
+- Mouse Click = Select Stitch or Angel
+- Left Arrow = Move piece left
+- Right Arrow = Move piece right
+- Up Arrow = Rotate piece
+- Down Arrow = Drop piece faster
+- Space Bar = Activate power-up
 
+### Win Condition
 
+Earn the highest score possible by clearing rows and surviving as long as you can.
 
-\### Story
+### Lose Condition
 
+The game ends when the puzzle pieces stack to the top of the game board.
 
-
-After a powerful storm scattered experiment capsules and seashells across the island, Stitch and Angel work together to restore the beaches. The player chooses one character and collects as many items as possible while avoiding dangerous enemies.
-
-
-
-\### Goal
-
-
-
-Choose a character, collect enough seashells and experiment capsules to reach the target score, and avoid enemies before losing all three waves.
-
-
-
-\### User or player
-
-
-
-The player chooses either Stitch or Angel before the game begins. The selected character explores the island, collects important items, avoids hazards, and completes the level.
-
-
-
-\### Controls
-
-
-\- Mouse Click = Select Stitch or Angel
-\- Left Arrow = Move Left
-
-\- Right Arrow = Move Right
-
-
-
-\### win Condition
-
-
-
-Reach the target score
-
-
-
-\### Lose Condition
-
-
-
-Lose all three waves
-
-
-
-\### Required deliverables
-
-
+### Required Deliverables
 
 ☐ Review the Week 10 context and retro game study.
 
@@ -116,231 +71,165 @@ Lose all three waves
 
 ☐ Post the required Discord update.
 
-
-
 Submission destination:
 
 Canvas using the GitHub repository link.
 
+--------------------------------------------------
 
+## Story or Context
 
-\--------------------------------------------------
+Jumba's latest experiment accidentally scattered tropical supplies across the island. Players choose either Stitch or Angel to organize the falling puzzle pieces before they completely cover the island. Every completed row earns points and fills the Friendship Meter, allowing players to activate special island-themed abilities.
 
+--------------------------------------------------
 
+## Product Definition
 
-\## Story or context
+The first working version of the game includes a title screen, character selection screen, puzzle board, falling puzzle pieces, scoring, row clearing, a Friendship Meter, and tropical-themed power-ups.
 
+--------------------------------------------------
 
+## Reference Study and Adaptation
 
-A peaceful tropical island has become scattered with supplies after a powerful storm. The player explores beaches, forests, caves, and island paths to recover the missing supplies needed to repair a damaged boat. Along the way, the player must avoid obstacles, collect important items, and successfully complete the adventure before leaving the island.
+| What I Noticed | Keep, Change, or Replace? | Why? | Update Needed in My Plan |
+|----------------|---------------------------|------|--------------------------|
+| The tutorial begins with a title screen before gameplay starts. | Keep | Players need a clear starting point before beginning the game. | Create a tropical title screen with Stitch & Angel: Island Stack. |
+| The player controls falling pieces using the keyboard. | Keep | Simple controls are easy to learn and fit a retro puzzle game. | Use the arrow keys to move and rotate puzzle pieces. |
+| The tutorial clears completed rows. | Keep | Clearing rows is the main objective of the game. | Use tropical-themed puzzle pieces instead of standard blocks. |
+| The tutorial uses classic block graphics. | Change | My game will use Lilo & Stitch inspired tropical items. | Replace blocks with seashells, flowers, pineapples, and experiment capsules. |
+| The tutorial uses retro-style graphics. | Keep | Retro graphics match the assignment requirements. | Create colorful tropical pixel-inspired artwork. |
 
+--------------------------------------------------
 
+## Systems and Screens
 
-\--------------------------------------------------
+| System or Screen | Input | Action | Output |
+|------------------|-------|--------|--------|
+| Title Screen | Start Button | Begins the game | Character Selection screen appears |
+| Character Selection | Mouse Click | Player chooses Stitch or Angel | Selected character is saved |
+| Puzzle Board | Arrow Keys | Move and rotate puzzle pieces | Pieces move around the board |
+| Puzzle Piece System | Timer | Drops puzzle pieces | Pieces fall automatically |
+| Row Clearing | Completed Row | Removes completed row | Score increases |
+| Friendship Meter | Clear rows | Charges power meter | Power-up becomes available |
+| Power-Up System | Space Bar | Activates selected power | Special ability is used |
+| Game Over Screen | Board fills to the top | Ends the game | Restart option appears |
 
+--------------------------------------------------
 
+## Information Containers
 
-\## Product definition
+| Variable, Property, List, Table | Data Type | Purpose | Example Value |
+|---------------------------------|-----------|---------|---------------|
+| SelectedCharacter | String | Stores the selected character | Stitch |
+| PlayerScore | Integer | Stores the player's score | 1500 |
+| CurrentLevel | Integer | Stores the current level | 2 |
+| FriendshipMeter | Integer | Stores power-up progress | 75 |
+| CurrentPiece | String | Stores the active puzzle piece | Seashell |
+| NextPiece | String | Stores the upcoming puzzle piece | Hibiscus |
+| GameRunning | Boolean | Tracks whether the game is active | True |
 
+--------------------------------------------------
 
+## Actions
 
-The first working version of the game includes a character selection screen, one playable map, player movement, collectible items, simple obstacles, and a victory screen after all required items have been collected.
+| Function, Procedure, Method, or Event | Purpose | Input | Result |
+|----------------------------------------|---------|-------|--------|
+| SelectCharacter | Saves the selected character | Mouse Click | Character is selected |
+| StartGame | Begins gameplay | Start Button | Puzzle board loads |
+| MovePiece | Moves puzzle piece | Arrow Keys | Piece moves |
+| RotatePiece | Rotates puzzle piece | Up Arrow | Piece rotates |
+| DropPiece | Drops puzzle piece faster | Down Arrow | Piece falls quickly |
+| ClearRows | Removes completed rows | Completed row | Score increases |
+| ChargeFriendshipMeter | Builds power meter | Cleared rows | Power meter fills |
+| ActivatePower | Uses selected power-up | Space Bar | Special ability activates |
+| CheckGameOver | Checks if board is full | Board status | Game Over screen appears |
 
+--------------------------------------------------
 
-\--------------------------------------------------
-
-
-
-\## Reference study and adaptation
-
-|What I noticed|Keep, Change, or Replace?|Why?|Update Needed in My Plan|
-|-|-|-|-|
-|The tutorial begins with a title screen before gameplay starts.|Keep|Players need a clear starting point before beginning the game.|Add a title screen with Lilo \& Stitch: Island Adventure and a Start button.|
-|The player moves using keyboard controls.|Keep|Simple keyboard controls fit a retro-style game and are easy to learn.|Use the arrow keys to move Stitch around the island.|
-|The game uses collectible items to complete objectives.|Change|My game will use island-themed collectibles instead of dungeon treasure.|Replace treasure with seashells, experiment capsules, and Ohana Tokens.|
-|The tutorial uses a dungeon environment.|Replace|My game takes place on a Hawaiian island inspired by Lilo \& Stitch.|<br />Create beaches, forests, caves, and Jumba's laboratory instead of dungeon rooms.|
-|The tutorial uses retro-style graphics.|Keep|The assignment focuses on creating a retro game.|Use retro-inspired pixel graphics throughout the game.|
-
-
-
-
-
-\--------------------------------------------------
-
-
-
-\## Systems and screens
-
-
-
-|System or Screen|Input|Action|Output|
-|-|-|-|-|
-
-| Character Selection | Mouse Click | Player chooses Stitch or Angel | Selected character is saved and Play becomes available |
-|Title Screen|Start button|Starts the game|Game screen appears|
-|Player Movement|Left and right arrow keys|Moves Stitch horizontally|Stitch moves across the bottom|
-|Falling Items|Game timer|Moves items downward|Capsules, seashells, and enemies fall|
-|Collectible System|Stitch touches capsule or seashell|Collects item|Score increases|
-|Enemy System|Stitch touches enemy|Removes one wave|Health display updates|
-|Missed Item System|Item reaches bottom|Removes item from screen|New item can appear|
-|Victory Screen|Target score reached|Ends the level|Victory message appears|
-|Game Over Screen|Hearts reach zero|Ends the game|Restart option appears|
-
-
-
-\--------------------------------------------------
-
-\## Information containers
-
-|Variable, Property, List, Table|Data Type|Purpose|Example Value|
-|-|-|-|-|
-| SelectedCharacter | String    | Stores the player's selected character | Stitch  |
-|PlayerScore|Integer|Stores the current score|150|
-|PlayersHearts|Integer|Stores remaining waves|3|
-|TargetScore|Integer|Stores score needed to win|500|
-|PlayerSpeed|Double|Controls Stitch's movement speed|8.0|
-|ItemFallSpeed|Double|Controls how fast items fall|5.0|
-|GameRunning|Boolean|Tracks whether the game is active|True|
-|CurrentItemType|String|Stores the type of falling item|Seashell|
-
-
-
-\--------------------------------------------------
-
-\## Actions
-
-|Funntion, Procedure, Method, or Event|Purpose|Input|Result|
-|-|-|-|-|
-| SelectCharacter | Saves the chosen character | Mouse Click | Stitch or Angel becomes the active player |
-|StartGame|Starts a new game|Start button|Game begins|
-|MovePlayer|Moves Stitch left or right|Arrow keys|Player postion changes|
-|SpawnItem|Creates a falling item|Game timer|New item appears|
-|MoveItems|Moves items downward|Timer tick|Items fall|
-|CollectItem|Handles capsules and seashells|Collision|Score increases|
-|HitEnemy|Handles enemy collision|Collision|One heart is removed|
-|CheckWin|Checks target score|Current score|Victory screen appears|
-|CheckGameOver|Checks remaining hearts|Heart count|Game-over screen appears|
-
-
-
-\--------------------------------------------------
-
-\## Environment
-
-
+## Environment
 
 Required editor:
 
 Visual Studio 2022
 
-
-
 Required workload or SDK:
 
 .NET Desktop Development
-
-
 
 Project template:
 
 Visual Basic WPF Application (.NET)
 
-
-
 Required packages or libraries:
 
 Standard .NET libraries
-
-
 
 Operating system or device:
 
 Windows 10 or Windows 11
 
-
-
 Proof that setup works:
 
-The empty WPF project builds successfully and opens the application window.
+The WPF project builds successfully and opens the application window.
 
+--------------------------------------------------
 
-
-\--------------------------------------------------
-
-
-
-\## Assets
-
-
+## Assets
 
 Asset Manifest:
 
-AssetManifest.txt
-
-
+ASSET_MANIFEST.md
 
 Planned assets:
 
+- Stitch portrait
+- Angel portrait
+- Title screen background
+- Character selection background
+- Tropical gameplay background
+- Seashell puzzle block
+- Hibiscus puzzle block
+- Pineapple puzzle block
+- Experiment capsule puzzle block
+- Friendship Meter
+- Wave power-up icon
+- Sparkle power-up icon
+- Experiment power-up icon
+- Play button
+- Back button
+- Next Piece frame
+- Game Over artwork
+- High Score screen
 
+--------------------------------------------------
 
-\- Stitch player sprite
-\- Angel player sprite
-\- Character selection background
-\- Gameplay background
-\- Seashell collectible
-\- Wave icon
-\- Title screen artwork
+## Milestones
 
+| Milestone | Definition of Done | Target Date | Status |
+|------------|-------------------|-------------|--------|
+| Project Setup | WPF project builds and runs successfully | Week 10 | Complete |
+| Development Document | All required sections completed | Week 10 | Complete |
+| Asset Manifest | Planned assets documented | Week 10 | In Progress |
+| GitHub Repository | Repository created and organized | Week 10 | Complete |
+| First Playable Version | Puzzle board, movement, scoring, Friendship Meter, and power-ups work correctly | Week 11 | Planned |
 
-\--------------------------------------------------
+--------------------------------------------------
 
+## Questions and Decisions
 
+| Date | Question or Problem | Source Used | Decision or Answer | Next Action |
+|------|----------------------|-------------|--------------------|-------------|
+| July 28, 2026 | How can I make my game different from the tutorial? | Week 10 assignment instructions | I decided to create a tropical puzzle game inspired by Stitch & Angel with original artwork and power-ups. | Begin designing puzzle pieces and UI. |
+| July 28, 2026 | What features should be included in the first version? | Development Document template | Focus on puzzle gameplay, scoring, row clearing, the Friendship Meter, and power-ups. | Build the puzzle board. |
+| July 28, 2026 | What assets are needed before programming? | Asset planning | I identified the backgrounds, characters, puzzle blocks, power-up icons, buttons, and UI graphics needed. | Create the Asset Manifest. |
 
-\## Milestones
+--------------------------------------------------
 
+## Risks
 
-
-|Milestones|Definition of Done|Target Date|Status|
-|-|-|-|-|
-|Project Setup|Empty WPF project builds and runs successfully|Week 10|In Progress|
-|Development Document|All required sections completed|Week 10|Complete|
-|Asset Manifest|Planned assets documented|Week 10|In Progress|
-|GitHub Repository|Repository created and organized|Week 10|In Progress|
-|First Playable Version|Stitch can move around one island area and collect items|Week 11|Planned|
-
-
-
-\----------------------------------------------------
-
-
-
-\## Questions and decisions
-
-
-
-|Date|Question or Problem|Source Used|Decision or Answer|Next Action|
-|-|-|-|-|-|
-|July 28, 2026|How can I make my game feel different from the tutorial while still following the assignment requirements?|Week 10 assignment instructions and retro game tutorial|I decided to keep the retro gameplay but change the story and setting to a tropical island adventure inspired by Lilo \& Stitch.|Continue developing the game's story and map.|
-|July 28, 2026|What features should I include in the first playable version so the project stays manageable?|Development Document template and assignment requirements|The first version will focus on player movement, one island area, collectible items, simple obstacles, and one mission.|Create the Build Map and begin planning the game screens.|
-|July 28, 2026|What assets will I need before I start programming the game?|Asset planning and course requirements|I identified the main assets needed, including character sprites, island backgrounds, collectibles, and menu graphics.|Create the Asset Manifest and organize the Assets folder.|
-
-
-
-\--------------------------------------------------
-
-
-
-\## Risks
-
-
-
-\- Learning WPF game programming.
-
-\- Finding appropriate retro game assets.
-
-\- Managing time while completing the project.
-
-\- Debugging player movement and collision detection.
-
-\- Completing all required documentation before submission.
-
+- Learning WPF game programming.
+- Implementing puzzle piece movement and rotation.
+- Debugging collision detection and row clearing.
+- Balancing the Friendship Meter and power-ups.
+- Managing time while completing the project.
+- Completing all required documentation before submission.
