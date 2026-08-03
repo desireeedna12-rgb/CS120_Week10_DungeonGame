@@ -51,14 +51,14 @@
 
 # Graded Requirements Map
 
-| Requirement            | Location in this repository      | Evidence 
-| Development Document   | `docs/Development Document.md`   | `evidence/Screenshots/Development Document.png`                     |
-| Asset Manifest         | `docs/Asset Manifest.md`         | `evidence/Screenshots/Asset Manifest.png`                           |
-| Reference Study Notes  | `docs/Reference Study Notes.md`  | `evidence/Screenshots/Reference Study Notes.png`                    |
-| Test and Readiness Log | `docs/Test and Readiness Log.md` | `evidence/Screenshots/Test and Readiness Log.png`                   |
-| Source Code            | `src/`                           | `evidence/Screenshots/P02-Run the empty environment.png`            |
-| Game Assets            | `assets/`                      | `evidence/Screenshots/P03-Review repository (folder) structure.png` |
-
+| Requirement | Location in this repository | Evidence |
+|--------------|-----------------------------|----------|
+| Development Document | `docs/Development Document.md` | `evidence/Screenshots/Development Document.png` |
+| Asset Manifest | `docs/Asset Manifest.md` | `evidence/Screenshots/Asset Manifest.png` |
+| Reference Study Notes | `docs/Reference Study Notes.md` | `evidence/Screenshots/Reference Study Notes.png` |
+| Test and Readiness Log | `docs/Test and Readiness Log.md` | `evidence/Screenshots/Test and Readiness Log.png` |
+| Source Code | `src/` | `evidence/Screenshots/P02-Run the empty environment.png` |
+| Game Assets | `assets/` | `evidence/Screenshots/P03-Review repository (folder) structure.png` |
 
 ---
 
