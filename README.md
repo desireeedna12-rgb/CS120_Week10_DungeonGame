@@ -51,13 +51,14 @@
 
 # Graded Requirements Map
 
-| Requirement| Location in this repository      | Evidence  
-| Development Document   | `docs/Development Document.md`   | `evidence/screenshots/Development-Document.png`      |
-| Asset Manifest         | `docs/Asset Manifest.md`         | `evidence/screenshots/Asset-Manifest.png`            |
-| Reference Study Notes  | `docs/Reference Study Notes.md`  | `evidence/screenshots/Reference-Study-Notes.png`     |
-| Test and Readiness Log | `docs/Test and Readiness Log.md` | `evidence/screenshots/Test-and-Readiness-Log.png`    |
-| Source Code            | `src/`                           | `evidence/screenshots/P02-Run-Empty-Environment.png` |
-| Game Assets            | `assets/`                        | `evidence/screenshots/P03-Repository-Structure.png`  |
+| Requirement            | Location in this repository      | Evidence 
+| Development Document   | `docs/Development Document.md`   | `evidence/Screenshots/Development Document.png`                     |
+| Asset Manifest         | `docs/Asset Manifest.md`         | `evidence/Screenshots/Asset Manifest.png`                           |
+| Reference Study Notes  | `docs/Reference Study Notes.md`  | `evidence/Screenshots/Reference Study Notes.png`                    |
+| Test and Readiness Log | `docs/Test and Readiness Log.md` | `evidence/Screenshots/Test and Readiness Log.png`                   |
+| Source Code            | `src/`                           | `evidence/Screenshots/P02-Run the empty environment.png`            |
+| Game Assets            | `assets/`                      | `evidence/Screenshots/P03-Review repository (folder) structure.png` |
+
 
 ---
 
@@ -116,17 +117,20 @@ Contains:
 
 Contains:
 
-Screenshots:
+Screenshots
 
-- Assignment Screenshots
-- Empty Project
-- Run Empty Project
-- Respitory (Folder) Organization
-- Git Hub Folders
+- P01-Open Empty Project.png
+- P02-Run the empty environment.png
+- P03-Review repository (folder) structure.png
+- P04-Verify Github repository.png
+- Development Document.png
+- Reference Study Notes.png
+- Asset Manifest.png
+- Test and Readiness Log.png
 
-Discord:
+Discord Proof
 
-- Discord Screenshot Proof
+- Discord Post Proof.png
 
 ### src/
 
