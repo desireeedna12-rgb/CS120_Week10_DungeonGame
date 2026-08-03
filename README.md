@@ -130,6 +130,8 @@ Contains:
 - Solution files
 
 ---
+If a document, Assets, or evidence does not preview directly on GitHub (such as .txt, .mp3 files), it can still be opened by selecting Raw and downloading the file.
+
 
 # Git Checkpoints
 
