@@ -51,14 +51,13 @@
 
 # Graded Requirements Map
 
-| Requirement | Location in Repository | Evidence |
-|--------------|-----------------------|----------|
-| Development Document | `docs/Development Document.md` | Development Document screenshot |
-| Asset Manifest | `docs/Asset Manifest.md` | Asset Manifest screenshot |
-| Reference Study Notes | `docs/Reference Study Notes.md` | Reference Study Notes screenshot |
-| Test and Readiness Log | `docs/Test and Readiness Log.md` | Test Log screenshot |
-| Source Code | `src/` | Visual Studio project |
-| Game Assets | `assets/` | Tropical artwork, UI, audio, and puzzle graphics |
+| Requirement| Location in this repository      | Evidence  
+| Development Document   | `docs/Development Document.md`   | `evidence/screenshots/Development-Document.png`      |
+| Asset Manifest         | `docs/Asset Manifest.md`         | `evidence/screenshots/Asset-Manifest.png`            |
+| Reference Study Notes  | `docs/Reference Study Notes.md`  | `evidence/screenshots/Reference-Study-Notes.png`     |
+| Test and Readiness Log | `docs/Test and Readiness Log.md` | `evidence/screenshots/Test-and-Readiness-Log.png`    |
+| Source Code            | `src/`                           | `evidence/screenshots/P02-Run-Empty-Environment.png` |
+| Game Assets            | `assets/`                        | `evidence/screenshots/P03-Repository-Structure.png`  |
 
 ---
 
@@ -69,7 +68,7 @@
 | `src/` | Visual Basic WPF source code |
 | `assets/` | Backgrounds, characters, puzzle blocks, UI, audio, and other media |
 | `docs/` | Development Document, Asset Manifest, Reference Study Notes, and Test Log |
-| `evidence/` | Assignment screenshots and required evidence |
+| `evidence/` | Assignment screenshots, Discord Proof and required evidence  |
 | `.gitignore` | Prevents temporary Visual Studio files from being committed |
 | `README.md` | Project overview and assignment documentation |
 
@@ -117,9 +116,17 @@ Contains:
 
 Contains:
 
-- Assignment screenshots
-- Setup verification
-- Gameplay evidence
+Screenshots:
+
+- Assignment Screenshots
+- Empty Project
+- Run Empty Project
+- Respitory (Folder) Organization
+- Git Hub Folders
+
+Discord:
+
+- Discord Screenshot Proof
 
 ### src/
 
