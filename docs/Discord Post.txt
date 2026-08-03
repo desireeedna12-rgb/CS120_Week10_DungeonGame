@@ -1,0 +1,25 @@
+Discord Post 
+
+Game title:
+Stitch & Angel: Island Stack
+
+Genre or mood:
+Retro-inspired tropical puzzle game with a fun, colorful, and relaxing island theme.
+
+Player or backstory:
+Players choose either Stitch or Angel to organize falling tropical puzzle pieces after an experiment scattered colorful island items across Hawaii. Clearing rows fills the Friendship Meter and unlocks special power-ups.
+
+I plan to keep:
+I plan to keep the retro puzzle gameplay, keyboard controls, and row-clearing mechanics from the tutorial.
+
+I plan to change or replace:
+I will replace the standard puzzle blocks with tropical-themed pieces such as seashells, flowers, pineapples, and original experiment capsules. I will also add a character selection screen, Friendship Meter, and custom power-ups.
+
+Preparation decision:
+I organized my project into separate folders for documentation, assets, evidence, audio, characters, backgrounds, puzzle blocks, and user interface elements. I also created original tropical-themed artwork for the game's assets.
+
+Focused question:
+What is the best way to organize the puzzle board and piece movement in WPF so it is easy to add features like power-ups and level progression later?
+
+Latest Git checkpoint:
+Completed the Week 10 documentation, organized the project structure, added game assets, and pushed the latest changes to GitHub. 
